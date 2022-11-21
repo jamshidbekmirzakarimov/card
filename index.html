@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payment-Method</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <main class="site-main">
+    <section class="site-section">
+      <div class="content">
+        <ul class="content-list">
+          <li class="content-item"></li>
+          <li class="content-item"></li>
+          <li class="content-item"></li>
+        </ul>
+        <h1 class="title">
+          PAYMENT METHOD
+        </h1>
+        <div class="custom-card visa">
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <label class="radio-label" for="visa">VISA
+            <input class="radio-input" id="visa" type="radio" 
+            name="sport" value="master"
+            required>
+            <span class="radio-custom"></span>
+          </label>
+          </form>
+        </div>
+
+        <div class="custom-card maestro">
+          <form action="https://echo.htmlacademy.ru" method="POST">
+            <label class="radio-label" for="master">MASTERCARD
+              <input class="radio-input" id="master" type="radio" 
+              name="sport" value="mastercard"
+              required>
+              <span class="radio-custom"></span>
+            </label>
+           
+          </div>
+
+          <div class="custom-card master">
+         
+              <label class="radio-label" for="maestro">MAESTRO
+                <input class="radio-input" id="maestro" type="radio" 
+                name="sport" value="Stol tennisi"
+                required>
+                <span class="radio-custom"></span>
+              </label>
+              <button class="submit" type="submit">
+                <p class="submit-title">NEXT STEP</p>
+                <img class="arrow-img" src="./images/arrow.svg" alt="arrow icon">
+              </button>
+            </div>
+              </form>
+            
+          </div>
+    </section>
+  </main>
+</body>
+</html>
