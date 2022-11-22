@@ -21,6 +21,8 @@ body{
   width: 350px;
   background-color: #fff;
   padding-top: 20px;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .content-list{
@@ -124,10 +126,18 @@ body{
 .submit{
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
+  border: none;
+  background-color: #0000ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
 }
 
 .submit-title{
   margin: 0;
+  color: #fff;
+  margin-right: 10px;
 }
 
